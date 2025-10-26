@@ -6,6 +6,16 @@ public class ProdutoImportado extends Produto {
     }
 
     @Override
+    public double calcularImposto() {
+        return 0;
+    }
+
+    @Override
+    public void gerarRelatorio() {
+
+    }
+
+    @Override
     protected double aliquotaTaxaNacional() {
         return 0.05;
     }

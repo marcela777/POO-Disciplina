@@ -14,5 +14,15 @@ public class ProdutoEstadual extends Produto {
     public void gerarRelatorio() {
 
     }
+
+    @Override
+    protected double aliquotaTaxaNacional() {
+        return 0;
+    }
+
+    @Override
+    protected double aliquotaTaxaImportacao() {
+        return 0;
+    }
 }
 

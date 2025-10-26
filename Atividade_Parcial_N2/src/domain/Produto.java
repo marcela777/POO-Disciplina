@@ -21,4 +21,7 @@ public abstract class Produto {
         return descricao;
     }
 
+    protected abstract double aliquotaTaxaNacional();
+
+    protected abstract double aliquotaTaxaImportacao();
 }
